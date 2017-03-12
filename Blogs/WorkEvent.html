@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>工作经历</title>
+    <meta charset="utf-8" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="css/jquery.eventFlow.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.eventFlow.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var bigEvent = [{
+                'year': 2013,
+                'events': [{
+                    'mouths': 5,
+                    'times': '2013年5月29日',
+                    'even': '成都精域数据科技有限公司'
+                },
+                {
+                    'mouths': 10,
+                    'times': '2013年10月29日',
+                    'even': '福建厦门亿资网络有限公司'
+                }]
+            }, {
+                'year': 2014,
+                'events': [
+                {
+                    'mouths': 9,
+                    'times': '2014年9月29日',
+                    'even': '重庆久泓唯欣贸易有限公司'
+                }]
+            }, {
+                'year': 2015,
+                'events': [
+                {
+                    'mouths': 7,
+                    'times': '2015年7月1日',
+                    'even': '成都爱易佰网络科技有限公司'
+                }]
+            }, {
+                'year': '2017',
+                'events': []
+            }];
+            $('.event_wrap').eventFlow({ 'events': bigEvent });
+            scrollTo(0, 5);
+        });
+    </script>
+</head>
+<body>
+        <div class="w1000 tc body">
+            <div class="event_wrap clearfix">
+                <div class="middle_line">
+                </div>
+            </div>
+    </div>
+</body>
+</html>
