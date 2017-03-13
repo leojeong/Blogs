@@ -1,0 +1,10 @@
+Blogs
+ID Title Content Author CoverImg TagId  CreateTime  UpdateTime
+
+
+Tags
+ID  TagId CreateTime
+
+
+Comment  
+ID  NickName Email Message Type BlogId CreateTime 
