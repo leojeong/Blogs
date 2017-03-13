@@ -1,3 +1,2 @@
-# Blog
-
-Development version
+# Blogs
+my blogs
