@@ -28,4 +28,5 @@ namespace Blogs
             }
         }
     }
+    public class A{}
 }
